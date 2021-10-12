@@ -176,7 +176,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -239,9 +239,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 272
-        width: 48
-        height: 48
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 272
-        width: 48
-        height: 48
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 272
-        width: 48
-        height: 48
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,10 +301,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 272
-        width: 48
-        height: 48
+        x: 192
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,10 +322,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 272
-        width: 48
-        height: 48
+        x: 256
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +343,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_5
       rect:
         serializedVersion: 2
-        x: 240
-        y: 272
-        width: 48
-        height: 48
+        x: 320
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +364,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_6
       rect:
         serializedVersion: 2
-        x: 288
-        y: 272
-        width: 48
-        height: 48
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,10 +385,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_7
       rect:
         serializedVersion: 2
-        x: 336
-        y: 272
-        width: 48
-        height: 48
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,10 +406,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
-        width: 48
-        height: 48
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,10 +427,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_9
       rect:
         serializedVersion: 2
-        x: 48
-        y: 224
-        width: 48
-        height: 48
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_10
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
-        width: 48
-        height: 48
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,10 +469,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_11
       rect:
         serializedVersion: 2
-        x: 144
-        y: 224
-        width: 48
-        height: 48
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_12
       rect:
         serializedVersion: 2
-        x: 192
-        y: 224
-        width: 48
-        height: 48
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,10 +511,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_13
       rect:
         serializedVersion: 2
-        x: 240
-        y: 224
-        width: 48
-        height: 48
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +532,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_14
       rect:
         serializedVersion: 2
-        x: 288
-        y: 224
-        width: 48
-        height: 48
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,10 +553,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_15
       rect:
         serializedVersion: 2
-        x: 336
-        y: 224
-        width: 48
-        height: 48
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,10 +574,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 176
-        width: 48
-        height: 48
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +595,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_17
       rect:
         serializedVersion: 2
-        x: 48
-        y: 176
-        width: 48
-        height: 48
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,10 +616,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_18
       rect:
         serializedVersion: 2
-        x: 96
-        y: 176
-        width: 48
-        height: 48
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,10 +637,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_19
       rect:
         serializedVersion: 2
-        x: 144
-        y: 176
-        width: 48
-        height: 48
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,10 +658,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_20
       rect:
         serializedVersion: 2
-        x: 192
-        y: 176
-        width: 48
-        height: 48
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +679,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_21
       rect:
         serializedVersion: 2
-        x: 240
-        y: 176
-        width: 48
-        height: 48
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,10 +700,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_22
       rect:
         serializedVersion: 2
-        x: 288
-        y: 176
-        width: 48
-        height: 48
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,10 +721,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_23
       rect:
         serializedVersion: 2
-        x: 336
-        y: 176
-        width: 48
-        height: 48
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -743,9 +743,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 48
-        height: 48
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,10 +763,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_25
       rect:
         serializedVersion: 2
-        x: 48
-        y: 128
-        width: 48
-        height: 48
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -784,10 +784,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_26
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
-        width: 48
-        height: 48
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -805,10 +805,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_27
       rect:
         serializedVersion: 2
-        x: 144
-        y: 128
-        width: 48
-        height: 48
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -826,10 +826,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_28
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 48
-        height: 48
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -847,10 +847,10 @@ TextureImporter:
       name: Tile-Sets (64-64)_29
       rect:
         serializedVersion: 2
-        x: 240
-        y: 128
-        width: 48
-        height: 48
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -860,384 +860,6 @@ TextureImporter:
       bones: []
       spriteID: 114851534db12b520800000000000000
       internalID: 2716264123495449617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_30
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 128
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 831c006bebc1fd650800000000000000
-      internalID: 6259753612491145528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_31
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 128
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b8f6fc594d7aede0800000000000000
-      internalID: -1303091388124563272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_32
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 80
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2242f637b59c06930800000000000000
-      internalID: 4134525852541985826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_33
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 80
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7059338d41f57e030800000000000000
-      internalID: 3523889776571946247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_34
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 80
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee074c48660f26760800000000000000
-      internalID: 7449781056729018606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_35
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 80
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e17f8927347603c0800000000000000
-      internalID: -4393696606184050203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_36
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 80
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 748f7b2b01c5e1990800000000000000
-      internalID: -7413386709817624505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_37
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 80
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 045591abce39a4690800000000000000
-      internalID: -7617113174799985344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_38
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 80
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6e59e445f1089e30800000000000000
-      internalID: 4510357179746311787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_39
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 80
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efc24d675f1a8e620800000000000000
-      internalID: 2803668843670809854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_40
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d8c7a2679b008890800000000000000
-      internalID: -7457948238102411049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_41
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa2c2184dd51c4eb0800000000000000
-      internalID: -4734385068132089174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_42
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b88a2e06779207890800000000000000
-      internalID: -7462418989849597813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_43
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 32
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 438914f2149a83900800000000000000
-      internalID: 664467042467944500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_44
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 32
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 575ab6e832cc034a0800000000000000
-      internalID: -6615563399521917579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_45
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 32
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a11e8b84a3ee61270800000000000000
-      internalID: 8221020103907008794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_46
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 32
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d358aac40dd64e520800000000000000
-      internalID: 2730428015500231997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tile-Sets (64-64)_47
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 32
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fedcda0a7a3f25d0800000000000000
-      internalID: -3085182923882832141
       vertices: []
       indices: 
       edges: []
