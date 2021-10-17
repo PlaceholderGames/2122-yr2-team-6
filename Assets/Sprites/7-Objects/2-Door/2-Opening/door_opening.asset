@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: door_opening
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 39af2496f723f01499e309806b826d17, type: 3}
+  - {fileID: 21300000, guid: e9f1522b2a42e0145bdd5503060c2645, type: 3}
+  - {fileID: 21300000, guid: 731757f609f4f7d42a5f3cd55b64a16a, type: 3}
+  - {fileID: 21300000, guid: a1dcabfd277ef5044bc75e080bf7d911, type: 3}
+  - {fileID: 21300000, guid: bcc0fe72a040ca6469c12ca6eda07fdd, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0
