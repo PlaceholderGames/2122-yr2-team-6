@@ -318,7 +318,6 @@ GameObject:
   - component: {fileID: 828363497}
   - component: {fileID: 828363499}
   - component: {fileID: 828363498}
-  - component: {fileID: 828363500}
   m_Layer: 0
   m_Name: Ship_Tilemap_Base
   m_TagString: Untagged
@@ -15060,22 +15059,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!19719996 &828363500
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828363496}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001
 --- !u!1 &829064022
 GameObject:
   m_ObjectHideFlags: 0
@@ -15117,6 +15100,7 @@ GameObject:
   - component: {fileID: 1352848759}
   - component: {fileID: 1352848761}
   - component: {fileID: 1352848760}
+  - component: {fileID: 1352848762}
   m_Layer: 0
   m_Name: Ship_Tilemap_Walkable
   m_TagString: Untagged
@@ -15336,6 +15320,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1352848762
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352848758}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1517392426
 GameObject:
   m_ObjectHideFlags: 0
@@ -16660,6 +16660,7 @@ GameObject:
   - component: {fileID: 2144641579}
   - component: {fileID: 2144641580}
   - component: {fileID: 2144641581}
+  - component: {fileID: 2144641582}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -16781,7 +16782,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &2144641579
 BoxCollider2D:
@@ -16792,7 +16793,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2144641574}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7976798f4a2298542899730331a098b8, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -16818,11 +16819,11 @@ CircleCollider2D:
   m_GameObject: {fileID: 2144641574}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7976798f4a2298542899730331a098b8, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03, y: -0.15}
+  m_Offset: {x: -0.03, y: -0.122}
   serializedVersion: 2
   m_Radius: 0.17200232
 --- !u!114 &2144641581
@@ -16837,5 +16838,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dcb69136dbe95b45b79ccda7b36ee08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+--- !u!114 &2144641582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144641574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38cfda21484a154a8406c312d116d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 2144641577}
   runSpeed: 40
