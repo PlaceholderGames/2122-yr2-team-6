@@ -5,38 +5,73 @@ using UnityEngine;
 public class playerMoviment : MonoBehaviour
 {
 
-    public CharacterController2D controller;
-    public Animator animator;
+    public Rigidbody2D rb;
 
-    public float runSpeed=40f;
+    public float speed;
+    
+    public float jumpForce;
 
-    float horizontalMove = 0f;
+    private float moveInput;
 
-    bool jump = false;
-    // Update is called once per frame
-    void Update()
+    private bool isGrounded;
+
+    public Transform feetPos;
+
+    public float checkRadius;
+
+    public LayerMask whatIsGround;
+
+    private float jumpTimeCounter;
+    
+    public float jumpTime;
+
+    private bool isJumping;
+
+    void Start()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
-        if (Input.GetButtonDown("Jump"))
-        {
-            jump = true;
-            animator.SetBool("IsJumping", true);
-        }
+        rb = GetComponent<Rigidbody2D>();
     }
-
-    public void OnLanding ()
-    {
-        animator.SetBool("IsJumping", false);
-    }
-
+    
     void FixedUpdate()
     {
-        // Actually moving               Ensure mov is the same amount regardless of multiple calls
-        //                                                     Crouch Jump
-        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
-        jump = false;
+        moveInput = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+    }    
+    
+    void Update()
+    {
+        isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
+
+        if (moveInput > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }else if (moveInput < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        
+        if(isGrounded == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            isJumping = true;
+            jumpTimeCounter = jumpTime; 
+            rb.velocity = Vector2.up * jumpForce;
+        }
+        
+        if(Input.GetKey(KeyCode.Space) && isJumping==true)
+        { 
+            if(jumpTimeCounter>0)
+            {
+                rb.velocity = Vector2.up * jumpForce;
+                jumpTimeCounter-=Time.deltaTime;
+            }
+            else
+            {
+                isJumping = false;
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space)){
+            isJumping = false;
+        }
     }
 }
