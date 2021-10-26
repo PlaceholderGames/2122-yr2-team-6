@@ -25,10 +25,13 @@ public class playerMoviment : MonoBehaviour
     
     public float jumpTime;
 
-    private bool isJumping;
+    public bool isJumping;
+
+    private Animator anim;
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
     
@@ -42,6 +45,15 @@ public class playerMoviment : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
 
+        if (moveInput == 0)
+        {
+            anim.SetBool("IsRunning", false);
+        }
+        else
+        {
+            anim.SetBool("IsRunning", true);
+        }
+
         if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
@@ -52,11 +64,21 @@ public class playerMoviment : MonoBehaviour
         
         if(isGrounded == true && Input.GetKeyDown(KeyCode.Space))
         {
+            anim.SetTrigger("takeOf");
             isJumping = true;
             jumpTimeCounter = jumpTime; 
             rb.velocity = Vector2.up * jumpForce;
         }
-        
+
+        if(isGrounded == true)
+        {
+            anim.SetBool("isJumping", false);
+        }
+        else
+        {
+            anim.SetBool("isJumping", true);
+        }
+
         if(Input.GetKey(KeyCode.Space) && isJumping==true)
         { 
             if(jumpTimeCounter>0)
