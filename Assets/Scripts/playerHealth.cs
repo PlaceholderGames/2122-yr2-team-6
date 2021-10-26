@@ -1,27 +1,25 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerHealth : MonoBehaviour
 {
-    [SerializeField] private float startingHealth;
-    private float currentHealth;
-    private void Awake()
-    {
-        currentHealth = startingHealth;
-    }
-    
-    private void TakeDamage(float _damage)
-    {
-        currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
+    public int health;
+    public int numOfHearts;
 
-        if (currentHealth>0)
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
+    
+    void Update()
+    {
+        for (int i = 0; i < hearts.Length; i++)
         {
-            //damage player
-        }
-        else
-        {
-            //player defeated
+            if ()
+            {
+
+            }
         }
     }
 }
