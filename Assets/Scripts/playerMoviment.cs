@@ -29,6 +29,8 @@ public class playerMoviment : MonoBehaviour
 
     private Animator anim;
 
+    public ParticleSystem dust;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -57,9 +59,11 @@ public class playerMoviment : MonoBehaviour
         if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
-        }else if (moveInput < 0)
+        }
+        else if (moveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
+
         }
         
         if(isGrounded == true && Input.GetKeyDown(KeyCode.Space))
@@ -68,6 +72,7 @@ public class playerMoviment : MonoBehaviour
             isJumping = true;
             jumpTimeCounter = jumpTime; 
             rb.velocity = Vector2.up * jumpForce;
+            CreateDust();
         }
 
         if(isGrounded == true)
@@ -95,5 +100,10 @@ public class playerMoviment : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space)){
             isJumping = false;
         }
+    }
+
+    void CreateDust()
+    {
+        dust.Play();
     }
 }
