@@ -106,6 +106,7 @@ public class Enemy : MonoBehaviour
 
         if (cooling)
         {
+            Cooldown();
             animator.SetBool("Attack", false);
         }
     }
@@ -131,6 +132,17 @@ public class Enemy : MonoBehaviour
         animator.SetBool("Attack", true);
     }
 
+    void Cooldown()
+    {
+        timer -= Time.deltaTime;
+        
+        if(timer <= 0 && cooling && attackMode)
+        {
+            cooling = false;
+            timer = intTimer;
+        }
+    }
+
     void StopAttack()
     {
         cooling = false;
@@ -149,4 +161,10 @@ public class Enemy : MonoBehaviour
             Debug.DrawRay(rayCast.position, Vector2.left * rayCastLength, Color.green);
         }
     }
+
+    public void TriggerCooling()
+    {
+        cooling = true;
+    }
 }
+
