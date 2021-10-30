@@ -23,4 +23,11 @@ public class enemyHealth : MonoBehaviour
             Die();
         }
     }
+    
+    void Die()
+    {
+        //Die animation
+
+        //Disable the enemy
+    }
 }
